@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_kategoriPengerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori Pengerjaan"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_namaPengerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengerjaan"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_lokasiPengerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Pengerjaan"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_lamaPengerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lama Pengerjaan"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_tanggalAwal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Awal"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_tanggalSelesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Selesai"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_minggu1Detail"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="1. Minggu 1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <CheckBox
+                android:id="@+id/tv_centang1Detail"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="belum dikerjakan"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_minggu2Detail"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="2. Minggu 2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <CheckBox
+                android:id="@+id/tv_centang2Detail"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="belum dikerjakan"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_minggu3Detail"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="3. Minggu 3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <CheckBox
+                android:id="@+id/tv_centang3Detail"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="belum dikerjakan"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_minggu4Detail"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="4. Minggu 4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <CheckBox
+                android:id="@+id/tv_centang4Detail"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="belum dikerjakan"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

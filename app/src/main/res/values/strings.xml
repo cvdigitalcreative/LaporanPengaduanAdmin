@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Monitoring Pengaduan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinnerItems">
+        <item>Trotoar</item>
+        <item>Jalan</item>
+        <item>Saluran Air</item>
+    </string-array>
+
+    <string-array name="mingguItems">
+        <item>Minggu ke-</item>
+        <item>Minggu 1</item>
+        <item>Minggu 2</item>
+        <item>Minggu 3</item>
+        <item>Minggu 4</item>
+    </string-array>
+</resources>

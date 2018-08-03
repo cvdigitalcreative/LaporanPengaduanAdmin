@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "430748135369",
+    "firebase_url": "https://laporanpengaduan-41a15.firebaseio.com",
+    "project_id": "laporanpengaduan-41a15",
+    "storage_bucket": "laporanpengaduan-41a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430748135369:android:b1f8ea3242778508",
+        "android_client_info": {
+          "package_name": "com.example.user.laporanpengaduan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430748135369-qqsiu350u86nt3h59uem4k478a6q7aov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.laporanpengaduan",
+            "certificate_hash": "99ae5db592a9ba03f38d473f4e4d522ac5fabdda"
+          }
+        },
+        {
+          "client_id": "430748135369-pl5dsmdc9tfq2svfnl6ifcohll82edje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSRSk6cC9V0HLQL65mexgm2YejJ7orpKY"
+        },
+        {
+          "current_key": "AIzaSyC8n43Yt8mCBcGvTdu79g8z0pmBmfUr8TQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430748135369-pl5dsmdc9tfq2svfnl6ifcohll82edje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430748135369:android:f8cfee3d384354ed",
+        "android_client_info": {
+          "package_name": "com.example.user.laporanpengaduanadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430748135369-41mvd87dq29916978qcvu53dnvtvfg8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.laporanpengaduanadmin",
+            "certificate_hash": "99ae5db592a9ba03f38d473f4e4d522ac5fabdda"
+          }
+        },
+        {
+          "client_id": "430748135369-pl5dsmdc9tfq2svfnl6ifcohll82edje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSRSk6cC9V0HLQL65mexgm2YejJ7orpKY"
+        },
+        {
+          "current_key": "AIzaSyC8n43Yt8mCBcGvTdu79g8z0pmBmfUr8TQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430748135369-pl5dsmdc9tfq2svfnl6ifcohll82edje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
